@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "miscs",
+  "info": {
+    "singularName": "misc",
+    "pluralName": "miscs",
+    "displayName": "Misc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StarSelectTitle": {
+      "type": "string"
+    }
+  }
+}

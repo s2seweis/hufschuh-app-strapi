@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_listenansicht_modals",
+  "info": {
+    "name": "Modal",
+    "icon": "mouse-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Input_Name": {
+      "type": "string"
+    },
+    "Input_Foto": {
+      "type": "string"
+    },
+    "Input_Foto_Aendern": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "Titel_Pferd_Bearbeiten": {
+      "type": "string"
+    },
+    "Abbrechen": {
+      "type": "string"
+    },
+    "Hinweis": {
+      "type": "string"
+    },
+    "Alle_Felder": {
+      "type": "string"
+    },
+    "Pferd_Loeschen": {
+      "type": "string"
+    },
+    "Fehler": {
+      "type": "text"
+    }
+  }
+}

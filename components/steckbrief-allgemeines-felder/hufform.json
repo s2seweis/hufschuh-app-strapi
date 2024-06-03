@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_hufforms",
+  "info": {
+    "name": "Hufform",
+    "icon": "circle-notch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Bild1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Bild2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Bild3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Subtext": {
+      "type": "text"
+    },
+    "Hilfstext": {
+      "type": "richtext"
+    }
+  }
+}

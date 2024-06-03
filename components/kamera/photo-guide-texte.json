@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_kamera_photo_guide_textes",
+  "info": {
+    "name": "Photo_Guide_Texte",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Starte_Aufnahme": {
+      "type": "text"
+    },
+    "Keine_Bilder": {
+      "type": "string"
+    },
+    "Aufnahme_Starten": {
+      "type": "string"
+    },
+    "Auswahl_Bestaetigt": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "Zuruecksetzen": {
+      "type": "string"
+    }
+  }
+}

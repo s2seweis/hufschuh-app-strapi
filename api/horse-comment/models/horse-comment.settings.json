@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "horse_comments",
+  "info": {
+    "name": "HorseComment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Schwierigkeit": {
+      "type": "integer"
+    },
+    "Notiz": {
+      "type": "text"
+    },
+    "Bearbeiter": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "horse": {
+      "model": "horse",
+      "via": "horse_comment"
+    },
+    "Angebot_Am": {
+      "type": "date"
+    }
+  }
+}

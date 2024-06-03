@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_steckbrief_allgemeines",
+  "info": {
+    "name": "Allgemeines",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Geburtsjahr": {
+      "type": "integer"
+    },
+    "Groesse": {
+      "type": "float"
+    },
+    "Letzte_Hufschuhe": {
+      "type": "json"
+    },
+    "Gewicht": {
+      "type": "float"
+    },
+    "Hufform": {
+      "type": "string"
+    },
+    "Letzte_Hufbearbeitung": {
+      "type": "string"
+    },
+    "Hufbearbeitung_Gelesen": {
+      "type": "boolean"
+    },
+    "Terrain": {
+      "type": "string"
+    },
+    "Terrain_Andere": {
+      "type": "string"
+    }
+  }
+}

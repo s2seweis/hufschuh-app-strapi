@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_infos",
+  "info": {
+    "name": "UserInfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Vorname": {
+      "type": "string"
+    },
+    "Nachname": {
+      "type": "string"
+    },
+    "Strasse": {
+      "type": "string"
+    },
+    "Ort": {
+      "type": "string"
+    },
+    "Land": {
+      "type": "string"
+    },
+    "Mobil": {
+      "type": "string"
+    },
+    "PLZ": {
+      "type": "integer"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "userInfo"
+    },
+    "Anrede": {
+      "type": "string"
+    },
+    "Newsletter": {
+      "type": "boolean"
+    },
+    "CompletedGuide": {
+      "type": "boolean"
+    },
+    "horses": {
+      "via": "user_info",
+      "collection": "horse"
+    },
+    "Bilder_Rechte": {
+      "type": "boolean"
+    }
+  }
+}

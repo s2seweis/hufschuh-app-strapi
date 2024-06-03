@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "arrow-circle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "FelderFehlen": {
+      "type": "string"
+    }
+  }
+}

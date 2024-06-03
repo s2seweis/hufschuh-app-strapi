@@ -1,0 +1,86 @@
+{
+  "kind": "singleType",
+  "collectionName": "detailansichts",
+  "info": {
+    "name": "Detailansicht",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Portrait_Foto": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "VR": {
+      "type": "string"
+    },
+    "VL": {
+      "type": "string"
+    },
+    "HR": {
+      "type": "string"
+    },
+    "HL": {
+      "type": "string"
+    },
+    "Senden": {
+      "type": "string"
+    },
+    "Pferd_Modell": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Thumbnails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.thumbnails"
+    },
+    "Steckbriefe": {
+      "type": "string"
+    },
+    "Torso_Bild": {
+      "type": "string"
+    },
+    "Hufschuhe_Fuer": {
+      "type": "string"
+    },
+    "Vorne": {
+      "type": "string"
+    },
+    "Vorne_Hinten": {
+      "type": "string"
+    },
+    "Hinten": {
+      "type": "string"
+    },
+    "Allgemeines": {
+      "type": "string"
+    },
+    "Besonderheiten": {
+      "type": "string"
+    },
+    "Alle_Felder": {
+      "type": "string"
+    },
+    "Veroeffentlicht_Am": {
+      "type": "string"
+    },
+    "Veroeffentlichen": {
+      "type": "string"
+    }
+  }
+}

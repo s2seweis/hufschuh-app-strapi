@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_kamera_fessels",
+  "info": {
+    "displayName": "Fessel",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text_1": {
+      "type": "string"
+    },
+    "Text_2": {
+      "type": "string"
+    },
+    "Text_3": {
+      "type": "string"
+    },
+    "Text_4": {
+      "type": "string"
+    },
+    "Text_5": {
+      "type": "string"
+    },
+    "Bild_1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Bild_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Bild_3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Bild_4": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

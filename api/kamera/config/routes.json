@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kamera",
+      "handler": "kamera.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kamera",
+      "handler": "kamera.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kamera",
+      "handler": "kamera.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

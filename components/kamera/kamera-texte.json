@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_kamera_kamera_textes",
+  "info": {
+    "name": "Kamera_Texte",
+    "icon": "camera",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Huflaenge": {
+      "type": "text"
+    },
+    "Hufbreite": {
+      "type": "text"
+    },
+    "Koerper": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.koerper"
+    },
+    "Fessel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.fessel"
+    },
+    "Huf": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.huf"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_horse_xoxes",
+  "info": {
+    "name": "Xox",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "Sei": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

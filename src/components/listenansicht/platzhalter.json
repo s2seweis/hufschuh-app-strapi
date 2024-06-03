@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_listenansicht_platzhalters",
+  "info": {
+    "displayName": "Platzhalter",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "CTA": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    }
+  }
+}

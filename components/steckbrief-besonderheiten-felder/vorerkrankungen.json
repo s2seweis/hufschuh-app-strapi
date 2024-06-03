@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_steckbrief_felder_vorerkrankungens",
+  "info": {
+    "name": "Vorerkrankungen",
+    "icon": "meh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

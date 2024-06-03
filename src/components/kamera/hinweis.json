@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_kamera_hinweis",
+  "info": {
+    "displayName": "Hinweis",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "Huflaenge": {
+      "type": "string"
+    },
+    "Hufbreite": {
+      "type": "string"
+    },
+    "Fessel": {
+      "type": "string"
+    },
+    "VR": {
+      "type": "string"
+    },
+    "VL": {
+      "type": "string"
+    },
+    "HR": {
+      "type": "string"
+    },
+    "HL": {
+      "type": "string"
+    },
+    "Koerper": {
+      "type": "string"
+    }
+  }
+}

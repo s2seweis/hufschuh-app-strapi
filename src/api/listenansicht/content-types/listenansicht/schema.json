@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "listenansichts",
+  "info": {
+    "singularName": "listenansicht",
+    "pluralName": "listenansichts",
+    "displayName": "Listenansicht",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Erklaerung": {
+      "type": "text"
+    },
+    "Platzhalter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listenansicht.platzhalter"
+    },
+    "Modal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listenansicht.modal"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "miscs",
+  "info": {
+    "name": "Misc"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "StarSelectTitle": {
+      "type": "string"
+    }
+  }
+}

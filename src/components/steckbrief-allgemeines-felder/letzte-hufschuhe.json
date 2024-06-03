@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_letzte_hufschuhes",
+  "info": {
+    "displayName": "Letzte_Hufschuhe",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "string"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_steckbrief_felder_reitweises",
+  "info": {
+    "name": "Reitweise",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Subtext": {
+      "type": "text"
+    },
+    "Titel_Andere": {
+      "type": "string"
+    }
+  }
+}

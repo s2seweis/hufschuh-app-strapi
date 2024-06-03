@@ -1,0 +1,75 @@
+{
+  "kind": "singleType",
+  "collectionName": "profils",
+  "info": {
+    "name": "Profil",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Anrede": {
+      "type": "string"
+    },
+    "Vorname": {
+      "type": "string"
+    },
+    "Nachname": {
+      "type": "string"
+    },
+    "Strasse": {
+      "type": "string"
+    },
+    "PLZ": {
+      "type": "string"
+    },
+    "Ort": {
+      "type": "string"
+    },
+    "Land": {
+      "type": "string"
+    },
+    "Mobil": {
+      "type": "string"
+    },
+    "Alle_Felder": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "Newsletter": {
+      "type": "text"
+    },
+    "Logout_Hinweis": {
+      "type": "text"
+    },
+    "Logout": {
+      "type": "string"
+    },
+    "Fehler": {
+      "type": "string"
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Anrede_Optionen": {
+      "type": "json"
+    },
+    "Ueberschrift": {
+      "type": "string"
+    },
+    "Menu_Ueberschrift": {
+      "type": "string"
+    },
+    "Hinweis_Mobil": {
+      "type": "text"
+    },
+    "Bilder_Rechte": {
+      "type": "text"
+    }
+  }
+}

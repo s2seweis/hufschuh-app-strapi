@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/misc",
+      "handler": "misc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/misc",
+      "handler": "misc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/misc",
+      "handler": "misc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

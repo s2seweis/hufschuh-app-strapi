@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_metas",
+  "info": {
+    "name": "Meta",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "FelderFehlen": {
+      "type": "string"
+    }
+  }
+}

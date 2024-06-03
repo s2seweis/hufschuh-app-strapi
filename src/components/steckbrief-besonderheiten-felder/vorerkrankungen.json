@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_vorerkrankungens",
+  "info": {
+    "displayName": "Vorerkrankungen",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "listenansichts",
+  "info": {
+    "name": "Listenansicht",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Erklaerung": {
+      "type": "text"
+    },
+    "Platzhalter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listenansicht.platzhalter"
+    },
+    "Modal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listenansicht.modal"
+    }
+  }
+}

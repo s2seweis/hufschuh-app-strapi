@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_metas",
+  "info": {
+    "name": "Meta",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.meta"
+    }
+  }
+}

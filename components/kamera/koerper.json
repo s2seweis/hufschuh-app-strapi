@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_kamera_koerpers",
+  "info": {
+    "name": "Koerper",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "Text_1": {
+      "type": "text"
+    },
+    "Text_2": {
+      "type": "text"
+    },
+    "Bild_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Bild_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

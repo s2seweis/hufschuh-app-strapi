@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_steckbrief_besonderheitens",
+  "info": {
+    "name": "Besonderheiten",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Equidenart": {
+      "type": "string"
+    },
+    "Rasse": {
+      "type": "string"
+    },
+    "Reitweise": {
+      "type": "string"
+    },
+    "Reitweise_Andere": {
+      "type": "string"
+    },
+    "Nutzungszeit": {
+      "type": "string"
+    },
+    "Beschlagen": {
+      "type": "boolean"
+    },
+    "Hufvorerkrankungen": {
+      "type": "string"
+    },
+    "Stellungsanomalien": {
+      "type": "string"
+    },
+    "Stellungsanomalien_Andere": {
+      "type": "text"
+    },
+    "Rasse_Andere": {
+      "type": "string"
+    },
+    "Vorerkrankungen": {
+      "type": "string"
+    },
+    "Vorerkrankungen_Andere": {
+      "type": "string"
+    },
+    "Hufvorerkrankungen_Andere": {
+      "type": "string"
+    }
+  }
+}

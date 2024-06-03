@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_hufforms",
+  "info": {
+    "displayName": "Hufform",
+    "icon": "arrow-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Bild1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Bild2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Bild3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Subtext": {
+      "type": "text"
+    },
+    "Hilfstext": {
+      "type": "text"
+    }
+  }
+}

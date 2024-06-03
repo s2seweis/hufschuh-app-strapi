@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_steckbrief_felder_beschlagens",
+  "info": {
+    "name": "Beschlagen",
+    "icon": "circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Typ": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_gewichts",
+  "info": {
+    "name": "Gewicht",
+    "icon": "weight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

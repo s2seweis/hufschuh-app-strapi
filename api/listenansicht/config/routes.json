@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/listenansicht",
+      "handler": "listenansicht.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/listenansicht",
+      "handler": "listenansicht.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/listenansicht",
+      "handler": "listenansicht.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

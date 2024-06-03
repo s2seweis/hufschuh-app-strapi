@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/horse-comments",
+      "handler": "horse-comment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/horse-comments/count",
+      "handler": "horse-comment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/horse-comments/:id",
+      "handler": "horse-comment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/horse-comments",
+      "handler": "horse-comment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/horse-comments/:id",
+      "handler": "horse-comment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/horse-comments/:id",
+      "handler": "horse-comment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

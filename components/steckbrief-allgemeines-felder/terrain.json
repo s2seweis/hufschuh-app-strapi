@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_terrains",
+  "info": {
+    "name": "Terrain",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "string"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Titel_Andere": {
+      "type": "string"
+    }
+  }
+}

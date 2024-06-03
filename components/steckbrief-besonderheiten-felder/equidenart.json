@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_steckbrief_felder_equidenarts",
+  "info": {
+    "name": "Equidenart",
+    "icon": "democrat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

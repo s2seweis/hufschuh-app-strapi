@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_listenansicht_platzhalters",
+  "info": {
+    "name": "Platzhalter",
+    "icon": "plus-circle"
+  },
+  "options": {},
+  "attributes": {
+    "CTA": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    }
+  }
+}

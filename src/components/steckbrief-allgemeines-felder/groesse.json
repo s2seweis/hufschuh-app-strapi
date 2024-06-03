@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_groesses",
+  "info": {
+    "displayName": "Groesse",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

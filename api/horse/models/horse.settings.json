@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "horses",
+  "info": {
+    "name": "Horse",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Steckbrief_Allgemeines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief.allgemeines"
+    },
+    "Steckbrief_Besonderheiten": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief.besonderheiten"
+    },
+    "Fotos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "horse.fotos"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "horses"
+    },
+    "offer_created_at": {
+      "type": "datetime"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Profil_Bild": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Hufschuhe_Fuer": {
+      "type": "string"
+    },
+    "inquiry_at": {
+      "type": "datetime"
+    },
+    "user_info": {
+      "via": "horses",
+      "model": "user-info"
+    },
+    "horse_comment": {
+      "via": "horse",
+      "model": "horse-comment"
+    }
+  }
+}

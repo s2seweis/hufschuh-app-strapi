@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/detailansicht",
+      "handler": "detailansicht.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/detailansicht",
+      "handler": "detailansicht.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/detailansicht",
+      "handler": "detailansicht.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "steckbrief_besonderheitens",
+  "info": {
+    "singularName": "steckbrief-besonderheiten",
+    "pluralName": "steckbrief-besonderheitens",
+    "displayName": "Steckbrief Besonderheiten"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Equidenart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.equidenart"
+    },
+    "Rasse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.rasse"
+    },
+    "Reitweise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.reitweise"
+    },
+    "Nutzungszeit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.nutzungszeit"
+    },
+    "Beschlagen": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.beschlagen"
+    },
+    "Vorerkrankungen": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.vorerkrankungen"
+    },
+    "Hufvorerkrankungen": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.hufvorerkrankungen"
+    },
+    "Stellungsanomalien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.stellungsanomalien"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-besonderheiten-felder.meta"
+    },
+    "Terrain": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.terrain"
+    }
+  }
+}

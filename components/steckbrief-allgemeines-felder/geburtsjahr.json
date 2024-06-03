@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_geburtsjahrs",
+  "info": {
+    "name": "Geburtsjahr",
+    "icon": "calendar-day",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

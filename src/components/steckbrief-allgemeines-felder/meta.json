@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "FelderFehlen": {
+      "type": "string"
+    }
+  }
+}

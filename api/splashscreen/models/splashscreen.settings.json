@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "splashscreens",
+  "info": {
+    "name": "Splashscreen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Los": {
+      "type": "string"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "App_Name": {
+      "type": "string"
+    }
+  }
+}

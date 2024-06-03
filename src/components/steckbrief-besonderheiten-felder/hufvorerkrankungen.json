@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_hufvorerkrankungens",
+  "info": {
+    "displayName": "Hufvorerkrankungen",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Titel_Andere": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "profils",
+  "info": {
+    "singularName": "profil",
+    "pluralName": "profils",
+    "displayName": "Profil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Anrede": {
+      "type": "string"
+    },
+    "Vorname": {
+      "type": "string"
+    },
+    "Nachname": {
+      "type": "string"
+    },
+    "Strasse": {
+      "type": "string"
+    },
+    "PLZ": {
+      "type": "string"
+    },
+    "Ort": {
+      "type": "string"
+    },
+    "Land": {
+      "type": "string"
+    },
+    "Mobil": {
+      "type": "string"
+    },
+    "Alle_Felder": {
+      "type": "string"
+    },
+    "Speichern": {
+      "type": "string"
+    },
+    "Newsletter": {
+      "type": "string"
+    },
+    "Logout_Hinweis": {
+      "type": "string"
+    },
+    "Logout": {
+      "type": "string"
+    },
+    "Fehler": {
+      "type": "string"
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Anrede_Optionen": {
+      "type": "json"
+    },
+    "Ueberschrift": {
+      "type": "string"
+    },
+    "Menu_Ueberschrift": {
+      "type": "string"
+    },
+    "Hinweis_Mobil": {
+      "type": "string"
+    },
+    "Bilder_Rechte": {
+      "type": "string"
+    },
+    "Bildrechte_nicht_akzeptiert": {
+      "type": "string"
+    }
+  }
+}

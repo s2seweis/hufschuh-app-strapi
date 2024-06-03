@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_kamera_textes",
+  "info": {
+    "name": "Texte",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Fessel": {
+      "type": "string"
+    },
+    "Huflaenge": {
+      "type": "string"
+    },
+    "Hufbreite": {
+      "type": "string"
+    },
+    "VR": {
+      "type": "string"
+    },
+    "VL": {
+      "type": "string"
+    },
+    "HR": {
+      "type": "string"
+    },
+    "HL": {
+      "type": "string"
+    }
+  }
+}

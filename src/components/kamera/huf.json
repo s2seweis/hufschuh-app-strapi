@@ -1,0 +1,114 @@
+{
+  "collectionName": "components_kamera_hufs",
+  "info": {
+    "displayName": "Huf",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Text_1": {
+      "type": "string"
+    },
+    "Text_2": {
+      "type": "string"
+    },
+    "Text_3": {
+      "type": "string"
+    },
+    "Text_4": {
+      "type": "string"
+    },
+    "Text_5": {
+      "type": "string"
+    },
+    "Text_6": {
+      "type": "string"
+    },
+    "Text_7": {
+      "type": "string"
+    },
+    "Text_8": {
+      "type": "string"
+    },
+    "Bild_Breite": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bild_Laenge": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bild_1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bild_2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bild_3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bild_4": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bild_5": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bild_6": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

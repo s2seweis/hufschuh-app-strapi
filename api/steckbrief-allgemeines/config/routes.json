@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/steckbrief-allgemeines",
+      "handler": "steckbrief-allgemeines.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/steckbrief-allgemeines",
+      "handler": "steckbrief-allgemeines.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/steckbrief-allgemeines",
+      "handler": "steckbrief-allgemeines.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

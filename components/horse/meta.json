@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_horse_metas",
+  "info": {
+    "name": "Meta",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

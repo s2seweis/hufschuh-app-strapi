@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_steckbrief_allgemeines_felder_nutzungsarts",
+  "info": {
+    "displayName": "Nutzungsart",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "string"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "string"
+    },
+    "Optionen": {
+      "type": "json"
+    }
+  }
+}

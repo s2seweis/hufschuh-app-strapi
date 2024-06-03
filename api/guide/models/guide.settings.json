@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "guides",
+  "info": {
+    "name": "Guide",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "guide.guide-page"
+    },
+    "Last": {
+      "type": "string"
+    },
+    "Next": {
+      "type": "string"
+    }
+  }
+}

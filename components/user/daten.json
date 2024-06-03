@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_user_datens",
+  "info": {
+    "name": "Daten",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Vorname": {
+      "type": "string"
+    },
+    "Nachname": {
+      "type": "string"
+    },
+    "Strasse": {
+      "type": "string"
+    },
+    "Ort": {
+      "type": "string"
+    },
+    "Land": {
+      "type": "string"
+    },
+    "Mobil": {
+      "type": "string"
+    },
+    "PLZ": {
+      "type": "integer"
+    }
+  }
+}

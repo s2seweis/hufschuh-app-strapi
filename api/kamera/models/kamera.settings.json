@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "kameras",
+  "info": {
+    "name": "Kamera",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Thumbnails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.thumbnails"
+    },
+    "Hinweis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.hinweis"
+    },
+    "Photo_Guide_Texte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.photo-guide-texte"
+    },
+    "Kamera_Texte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kamera.kamera-texte"
+    }
+  }
+}

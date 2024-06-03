@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_reitweises",
+  "info": {
+    "displayName": "Reitweise",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Subtext": {
+      "type": "text"
+    },
+    "Titel_Andere": {
+      "type": "string"
+    }
+  }
+}

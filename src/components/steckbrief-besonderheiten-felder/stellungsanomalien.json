@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_stellungsanomaliens",
+  "info": {
+    "displayName": "Stellungsanomalien",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Titel_Andere": {
+      "type": "string"
+    },
+    "Hinweis": {
+      "type": "text"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_kamera_fessels",
+  "info": {
+    "name": "Fessel",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text_2": {
+      "type": "text"
+    },
+    "Text_3": {
+      "type": "text"
+    },
+    "Text_4": {
+      "type": "text"
+    },
+    "Text_5": {
+      "type": "text"
+    },
+    "Bild_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Bild_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Bild_3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Bild_4": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Text_1": {
+      "type": "text"
+    }
+  }
+}

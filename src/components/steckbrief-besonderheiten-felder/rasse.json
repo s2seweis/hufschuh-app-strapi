@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_rasses",
+  "info": {
+    "displayName": "Rasse",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Titel_Mischung": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

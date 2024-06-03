@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_steckbrief_besonderheiten_felder_nutzungszeits",
+  "info": {
+    "displayName": "Nutzungszeit",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Hilfstext": {
+      "type": "text"
+    },
+    "Typ": {
+      "type": "string"
+    },
+    "Optionen": {
+      "type": "json"
+    },
+    "Subtext": {
+      "type": "text"
+    }
+  }
+}

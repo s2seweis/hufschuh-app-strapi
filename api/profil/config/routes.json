@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/profil",
+      "handler": "profil.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/profil",
+      "handler": "profil.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/profil",
+      "handler": "profil.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

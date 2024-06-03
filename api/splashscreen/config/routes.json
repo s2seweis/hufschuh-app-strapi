@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/splashscreen",
+      "handler": "splashscreen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/splashscreen",
+      "handler": "splashscreen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/splashscreen",
+      "handler": "splashscreen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

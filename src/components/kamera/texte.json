@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_kamera_textes",
+  "info": {
+    "displayName": "Texte",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "Fessel": {
+      "type": "string"
+    },
+    "Huflaenge": {
+      "type": "string"
+    },
+    "Hufbreite": {
+      "type": "string"
+    },
+    "VR": {
+      "type": "string"
+    },
+    "VL": {
+      "type": "string"
+    },
+    "HR": {
+      "type": "string"
+    },
+    "HL": {
+      "type": "string"
+    }
+  }
+}

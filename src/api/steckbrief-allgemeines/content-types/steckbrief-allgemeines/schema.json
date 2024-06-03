@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "steckbrief_allgemeiness",
+  "info": {
+    "singularName": "steckbrief-allgemeines",
+    "pluralName": "steckbrief-allgemeiness",
+    "displayName": "Steckbrief Allgemeines",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.meta"
+    },
+    "Geburtsjahr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.geburtsjahr"
+    },
+    "Groesse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.groesse"
+    },
+    "Letzte_Hufbearbeitung": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.letzte-hufbearbeitung"
+    },
+    "Stellungsfehler": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.stellungsfehler"
+    },
+    "Hufform": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.hufform"
+    },
+    "Hufschuhe_Fuer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.hufschuhe-fuer"
+    },
+    "Gewicht": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.gewicht"
+    },
+    "Nutzungsart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.nutzungsart"
+    },
+    "Nutzungsart_Erweitert": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.nutzungsart-erweitert"
+    },
+    "Letzte_Hufschuhe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.letzte-hufschuhe"
+    },
+    "Terrain": {
+      "type": "component",
+      "repeatable": false,
+      "component": "steckbrief-allgemeines-felder.terrain"
+    }
+  }
+}
